@@ -34,8 +34,10 @@ const StyledLink = styled(Link)`
 `;
 
 export default function PokemonCard(props) {
+  const [pokemonUrl, setPokemonUrl] = useState('');
   const [imageLoading, setImageLoadingState] = useState(true);
   const [tooManyRequests, setTooManyRequestsState] = useState(false);
+  const [types, setTypes] = useState([]);
 
   const name = props.name
     .toLowerCase()
