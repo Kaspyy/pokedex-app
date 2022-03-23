@@ -5,3 +5,7 @@ My first React App that fetches and displays data about Pokemons from [PokeAPI](
 ## Tech Stack
 
 **Client:** React.js, Bootstrap
+
+## Demo
+
+![demo](demo.gif)
